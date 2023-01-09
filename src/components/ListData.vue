@@ -15,7 +15,7 @@
 export default {
     data() {
         return {
-            users: ['asmaa', 'lamiaa', 'adel', 'sama', 'salma']
+            users: ['asmaa', 'lamiaa', 'sama', 'salma']
         }
     },
     methods: {

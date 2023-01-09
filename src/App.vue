@@ -1,5 +1,5 @@
 <template>
-  <!-- <div class="container">
+  <div class="container">
   <list-data></list-data>
 </div>
   <div class="container">
@@ -26,7 +26,7 @@
   </base-modal>
   <div class="container">
     <button @click="showDialog">Show Dialog</button>
-  </div> -->
+  </div>
   <router-view v-slot="slotProps">
     <transition name="fade-button" mode="out-in">
       <component :is="slotProps.Component"></component>
@@ -35,10 +35,10 @@
 </template>  
 
 <script>
-// import ListData from './components/ListData.vue';
+import ListData from './components/ListData.vue';
 export default {
   components: {
-    // ListData,
+    ListData,
   },
   data() {
     return {
@@ -60,12 +60,12 @@ export default {
       console.log(el);
     },
     beforeEnter(el) {
-      console.log('beforeEnter()');
+      console.log("beforeEnter()");
       console.log(el);
       el.style.opacity = 0;
     },
     enter(el, done) {
-      console.log('enter');
+      console.log("enter");
       console.log(el);
       let round = 1;
       this.enterInterval = setInterval(() => {
@@ -78,16 +78,16 @@ export default {
       }, 20);
     },
     afterEnter(el) {
-      console.log('afterEnter');
+      console.log("afterEnter");
       console.log(el);
     },
     beforeLeave(el) {
-      console.log('beforeLeave()');
+      console.log("beforeLeave()");
       console.log(el);
       el.style.opacity = 1;
     },
     leave(el, done) {
-      console.log('leave()');
+      console.log("leave()");
       console.log(el);
       let round = 1;
       this.leaveInterval = setInterval(() => {
@@ -100,7 +100,7 @@ export default {
       }, 20);
     },
     afterLeave(el) {
-      console.log('afterLeave()');
+      console.log("afterLeave()");
       console.log(el);
     },
     showUsers() {
@@ -228,18 +228,19 @@ button:active {
   opacity: 1;
 }
 
-.route-enter-from {}
+/* .route-enter-from {
+} */
 
 .route-enter-active {
   animation: slide-fade 0.4s ease-out;
 }
 
-.route-enter-to {}
+/* .route-enter-to {
+} */
 
 .route-leave-active {
   animation: slide-fade 0.4s ease-in;
 }
-
 
 @keyframes slide-fade {
   0% {
