@@ -2,7 +2,7 @@
 
 - [About <a name = "about"></a>](#about-)
 - [Website link <a name = "link"></a>](#website-link-)
-- [Screen Video <a name = "screen-shots"></a>](#screen-shots-)
+- [Screen Video <a name = "screen-video"></a>](#screen-video-)
 - [Project setup <a name = "Project-setup"></a>](#project-setup-)
 - [Compiles and hot-reloads for development <a name = "Compiles-and-hot-reloads-for-development"></a>](#compiles-and-hot-reloads-for-development-)
 - [Contributors <a name = "Contributors"></a>](#contributors-)
@@ -13,7 +13,7 @@
 ## Website link <a name = "link"></a>
 - https://animation-vue-project.vercel.app/
 
-## Screen Video: <a name = "screen-shots"></a>
+## Screen Video: <a name = "screen-video"></a>
 
 https://user-images.githubusercontent.com/88618793/211356836-7b92241e-6a3e-4d4c-bd40-5d9939eb156c.mp4
 
